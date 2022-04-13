@@ -1,0 +1,28 @@
+{
+  "name": "goit-node-hw-01-app",
+  "version": "1.0.0",
+  "description": "Курс Node. Домашнє завдання №1. Основи Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergiusNahnoinyi/goit-node-hw-01-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergiusNahnoinyi/goit-node-hw-01-app/issues"
+  },
+  "homepage": "https://github.com/SergiusNahnoinyi/goit-node-hw-01-app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "commander": "^9.1.0",
+    "nanoid": "^3.3.2"
+  }
+}
